@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+.container {
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+.LightClass {
+  background-color: #000000;
+  color: white;
+}
+.DarkClass {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.button {
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+}
